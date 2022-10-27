@@ -1,24 +1,30 @@
-# README
+#RottenPotatoes
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```shell
+git clone
+```
+ruby version = 3.1.1
 
-Things you may want to cover:
+1. Install Dependencies
+```shell
+bundle install
+```
 
-* Ruby version
+```shell
+yarn install
+```
 
-* System dependencies
+2. Migrate Database
+```shell
+rails db:migrate
+```
 
-* Configuration
+3. Run rails server
+```shell
+rails server
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+4. Access rails console
+```shell
+rails console
+```
